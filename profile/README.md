@@ -11,12 +11,10 @@
 </picture>
 <br>
 
-# Remote Virtio GPU Device (RVGPU)
+# Remote Virtio GPU (RVGPU)
 
 **RVGPU is a client-server based rendering engine, which allows to render 3D on one device (client) and display it via network on another device (server)**
 
 <p align="center"><img src="profile/png/glmark2-ubuntu.png" width=90% align="center"></p>
 
-RVGPU consists of [remote-virtio-gpu](https://github.com/unified-hmi/remote-virtio-gpu) and [remote-virtio-gpu-driver](https://github.com/unified-hmi/remote-virtio-gpu-driver). Refer to the respective READMEs for more details.
-
-
+RVGPU consists of [remote-virtio-gpu](https://github.com/unified-hmi/remote-virtio-gpu) and [virio-loopback-driver](https://github.com/unified-hmi/virtio-loopback-driver). Refer to the respective READMEs for more details.
