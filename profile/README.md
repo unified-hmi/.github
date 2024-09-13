@@ -7,7 +7,7 @@
 
 **"Unified HMI" is a common platform technology for UX innovation in integrated cockpit by flexible information display on multiple displays of various applications. Applications can be rendered to any display via a unified virtual display.**
 <picture>
-<p align="center"><img src="png/cockpit.png" width=90% align="center"></p>
+<p align="center"><img src="png/UnifiedHMI_Top.jpg" width=90% align="center"></p>
 </picture>
 <br>
 
