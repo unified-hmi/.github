@@ -47,5 +47,5 @@ DDFW consists of three repositories:
 The usage instructions for each framework are documented in their respective README files.
 
 ### How to use on AGL UCB
-[Here](pdf/agl-README.pdf) is the method for verifying the operation of the Unified HMI framework on AGL.
+[Here](https://docs.automotivelinux.org/en/master/#06_Component_Documentation/11_Unified_HMI/) is the documentation for verifying the operation of the Unified HMI framework on AGL.
 Please also refer to this for the procedure that combines RVGPU and DDFW.
