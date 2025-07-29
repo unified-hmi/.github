@@ -46,10 +46,17 @@ DDFW consists of three repositories:
 ## How to use Unified HMI
 The usage instructions for each framework are documented in their respective README files.
 
-Using `remote-virtio-gpu` and `ula-tools` together, you can achieve unified control of the application layouts on RVGPU.
+### How to use RVGPU version v2.0.0 or higher with DDFW
+Using `remote-virtio-gpu` and `ucl-tools` version v2.0.0 or higher together, you can easily achieve displaying multiple rvgpu-proxy renderings with a single rvgpu-renderer.
+This enables launching multiple applications with RVGPU and efficient management of the lifecycle (e.g., running or stopped) for multiple applications.
+For detailed instructions on how to launch multiple applications with RVGPU and manage lifecycle, please refer to [Here](https://github.com/unified-hmi/ucl-tools?tab=readme-ov-file#how-to-run-ucl-with-rvgpu-version-v200-or-higher).
+
+Using `remote-virtio-gpu` and `ula-tools` version v1.1.0 or higher together, you can achieve unified control of the application layouts on RVGPU.
 This enables efficient management of multiple application arrangements and displays on the virtual screen.
 For detailed instructions on how to control layouts on the RVGPU compositor, please refer to [Here](https://github.com/unified-hmi/ula-tools?tab=readme-ov-file#how-to-control-layouts-on-rvgpu-compositor).
 
-### How to use on AGL UCB
+Using RVGPU with DDFW allows you to easily manage the lifecycle of multiple applications and control their layouts across multiple displays, independent of hardware and OS configurations.
+
+### How to use RVGPU version v1.1.0 with DDFW on AGL UCB
 [Here](https://docs.automotivelinux.org/en/master/#06_Component_Documentation/11_Unified_HMI/) is the documentation for verifying the operation of the Unified HMI framework on AGL.
 Please also refer to this for the procedure that combines RVGPU and DDFW.
